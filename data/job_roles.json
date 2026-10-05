@@ -1,0 +1,32 @@
+[
+  {
+    "role": "Frontend Developer",
+    "description": "Build responsive user interfaces and experiences with modern frontend tooling.",
+    "skills": ["HTML", "CSS", "JavaScript", "React", "Bootstrap", "Git"]
+  },
+  {
+    "role": "Backend Developer",
+    "description": "Design APIs, server logic, and data-driven application services.",
+    "skills": ["Python", "Flask", "REST API", "SQL", "Git", "MySQL"]
+  },
+  {
+    "role": "Python Developer",
+    "description": "Create reliable Python products and automated solutions.",
+    "skills": ["Python", "Flask", "SQL", "REST API", "Git", "Machine Learning"]
+  },
+  {
+    "role": "Full Stack Developer",
+    "description": "Work across frontend, backend, and deployment layers of a product.",
+    "skills": ["HTML", "CSS", "JavaScript", "React", "Node.js", "SQL", "Git"]
+  },
+  {
+    "role": "Data Analyst",
+    "description": "Interpret data, build dashboards, and present insights using analysis tools.",
+    "skills": ["Python", "SQL", "Pandas", "NumPy", "Machine Learning", "Excel"]
+  },
+  {
+    "role": "Machine Learning Engineer",
+    "description": "Develop models, evaluate performance, and productionize ML workflows.",
+    "skills": ["Python", "Machine Learning", "Pandas", "NumPy", "scikit-learn", "SQL"]
+  }
+]

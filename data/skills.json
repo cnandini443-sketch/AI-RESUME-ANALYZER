@@ -1,0 +1,94 @@
+{
+  "skills": [
+    {"name": "Python", "category": "Programming"},
+    {"name": "Java", "category": "Programming"},
+    {"name": "C", "category": "Programming"},
+    {"name": "C++", "category": "Programming"},
+    {"name": "JavaScript", "category": "Programming"},
+    {"name": "HTML", "category": "Frontend"},
+    {"name": "CSS", "category": "Frontend"},
+    {"name": "React", "category": "Frontend"},
+    {"name": "Bootstrap", "category": "Frontend"},
+    {"name": "Flask", "category": "Backend"},
+    {"name": "Django", "category": "Backend"},
+    {"name": "Node.js", "category": "Backend"},
+    {"name": "REST API", "category": "Backend"},
+    {"name": "SQL", "category": "Database"},
+    {"name": "MySQL", "category": "Database"},
+    {"name": "MongoDB", "category": "Database"},
+    {"name": "SQLite", "category": "Database"},
+    {"name": "Artificial Intelligence", "category": "AI/ML"},
+    {"name": "Machine Learning", "category": "AI/ML"},
+    {"name": "Pandas", "category": "AI/ML"},
+    {"name": "NumPy", "category": "AI/ML"},
+    {"name": "scikit-learn", "category": "AI/ML"},
+    {"name": "Git", "category": "Tools"},
+    {"name": "GitHub", "category": "Tools"},
+    {"name": "VS Code", "category": "Tools"},
+    {"name": "Figma", "category": "Design"},
+    {"name": "AWS", "category": "Cloud"},
+    {"name": "Azure", "category": "Cloud"},
+    {"name": "Google Cloud", "category": "Cloud"},
+    {"name": "Communication", "category": "Soft Skills"},
+    {"name": "Leadership", "category": "Soft Skills"},
+    {"name": "Problem Solving", "category": "Soft Skills"}
+  ],
+  "recommended_skills": [
+    "Python",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Git",
+    "GitHub",
+    "SQL",
+    "REST API",
+    "React",
+    "Flask",
+    "Machine Learning",
+    "Communication"
+  ],
+  "soft_skills": [
+    "Communication",
+    "Leadership",
+    "Problem Solving",
+    "Teamwork"
+  ],
+  "roles": {
+    "Frontend Developer": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Git"
+    ],
+    "Backend Developer": [
+      "Python",
+      "Flask",
+      "SQL",
+      "REST API",
+      "Git"
+    ],
+    "Python Developer": [
+      "Python",
+      "Flask",
+      "SQL",
+      "Git",
+      "REST API"
+    ],
+    "Full Stack Developer": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "SQL"
+    ],
+    "AI/ML Beginner": [
+      "Python",
+      "Machine Learning",
+      "Pandas",
+      "NumPy",
+      "scikit-learn"
+    ]
+  }
+}

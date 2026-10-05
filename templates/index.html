@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Resume Analyzer & Career Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="brand-wrap">
+        <div class="brand">AI Resume Analyzer</div>
+        <span class="tag">Career Assistant</span>
+      </div>
+      <div class="nav-links">
+        <a href="{{ url_for('home') }}" class="active">Home</a>
+        <a href="{{ url_for('dashboard') }}">Dashboard</a>
+        <a href="{{ url_for('history_page') }}">History</a>
+      </div>
+    </nav>
+
+    <main class="container landing-page">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">SMART CAREER INTELLIGENCE</p>
+          <h1>Turn your resume into your strongest career asset.</h1>
+          <p class="subtitle">
+            Analyze, optimize, and target your resume with ATS scoring, skill detection,
+            role-fit recommendations, gap analysis, and interview preparation.
+          </p>
+          <div class="cta-group">
+            <a href="{{ url_for('dashboard') }}" class="primary-btn">Open dashboard</a>
+            <a href="{{ url_for('history_page') }}" class="secondary-btn">View history</a>
+          </div>
+        </div>
+
+        <div class="feature-panel card">
+          <div class="mini-score">
+            <span class="mini-label">Resume health</span>
+            <strong>88/100</strong>
+          </div>
+          <ul>
+            <li>ATS-friendly structure</li>
+            <li>Skill and keyword detection</li>
+            <li>Role and career fit guidance</li>
+            <li>Interview practice prompts</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="feature-grid">
+        <article class="card feature-card">
+          <h3>Resume scoring</h3>
+          <p>Get a professional overall score with ATS analysis, keyword alignment, and improvement suggestions.</p>
+        </article>
+        <article class="card feature-card">
+          <h3>Job matching</h3>
+          <p>Compare the resume with a target job description to reveal strengths, missing keywords, and gaps.</p>
+        </article>
+        <article class="card feature-card">
+          <h3>Career guidance</h3>
+          <p>Discover role matches, the strongest career direction, and skills to add for your next opportunity.</p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
+
